@@ -1,0 +1,12 @@
+.content {
+    text-align:center;
+    padding: 10px;
+    margin-left:35px;
+}
+.PASSgen {
+    background-color:darkcyan;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
