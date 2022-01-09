@@ -1,14 +1,15 @@
 import React from 'react';
+import './PASSgen.css'
 
 const PASSgen = () => {
     return(
         <div classname="PASSgen">
-        <video width="640" height="480" controls><source src="C:\Users\Ben\Desktop\_Coding BootCamp\_weeks lessons\week 20\coding-portfolio\assets\videos\HTML Generator.webm" type="video/webm"></source></video>
-          <div classname="content">
-              <h1>Password Generator</h1>
-              <p >Following a YouTube tutorial, I was able to create a code that generates a random password, made up of random components based on user input</p>
-          </div>
-    </div>
+            <video width="640" height="480" controls><source src=".\assets\videos\HTML Generator.webm" type="video/webm"></source></video>
+            <div classname="content">
+                <h1>Password Generator</h1>
+                <p >Following a YouTube tutorial, I was able to create a code that generates a random password, made up of random components based on user input</p>
+            </div>
+        </div>
     )
 }
 

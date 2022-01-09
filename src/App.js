@@ -4,13 +4,15 @@ import HTMLgen from './components/HTMLgen'
 import PASSgen from './components/PASSgen'
 import Translator from './components/Translator'
 
+// import './public/index.css'
+
 // this function sets up the webpage with the specific content
 function App() {
   const name = 'Portfolio'
   return (
     // this is the content for a specifc project; it has a brief video to describe and showcase the specific project and a quick blurb on the side, defining it's purpose
     <header>
-      <h1>Coding Portfolio</h1>
+      <h1 classname="title">Coding Portfolio</h1>
       {/* this is a randomized password generator I created for a coding assignment*/}
       {/* this loads the data from the specifc file into my webpage */}
       <PASSgen/>
