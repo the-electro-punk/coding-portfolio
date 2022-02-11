@@ -1,5 +1,5 @@
 import React from 'react';
-import './PASSgen.css'
+
 
 const PASSgen = () => {
     return(
